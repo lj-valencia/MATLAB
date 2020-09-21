@@ -1,0 +1,36 @@
+% A Simple NKPC Macroeconomic Model With ROT Price-Setters And Households
+!variables
+    'inflation Q/Q' pi, 'output gap' y, 'policy rate' r, 'expected inflation' Epi
+    
+!shocks
+    'cost-push shock' u, 'demand shock' g, 'policy shock' e
+    
+!parameters
+    gamma, delta, fi, lambda, rho, beta_pi, beta_y, pi_bar
+    
+!equations
+'New Keynesian Phillips Curve' pi = gamma*pi{+1} + (1-gamma)*pi{-1}+delta*y + u;
+'IS Curve' y = fi*y{+1} + (1-fi)*y{-1}+lambda*(r-Epi) + g;
+'Monetary Policy' r = max(0,rho*r{-1}+(1-rho)*(pi_bar+beta_pi*(pi-pi_bar)+beta_y*y+e));
+'Expected Inflation' Epi = pi{+1};
+
+!measurement_variables
+    'CPI inflation' Infl,'overnight rate' R,'output gap' Y
+
+!parameters
+    Infl_,R_,Y_
+    
+!dtrends
+    R += R_;
+    Infl += Infl_;
+    Y += Y_;
+
+!measurement_shocks
+    'Measurement Error on Output Gap' My
+    
+!measurement_equations
+Infl = (pi)*400;
+R = r*400;
+Y = y*400 + My;
+
+
