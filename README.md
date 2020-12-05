@@ -1,5 +1,6 @@
 # MATLAB Projects
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 This is a repository for my MATLAB coding projects. The MATLAB codes also use the IRIS macroeconomic modelling toolbox.
 
 ## Table of Contents
