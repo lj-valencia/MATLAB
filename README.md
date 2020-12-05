@@ -12,11 +12,8 @@ This is a repository for my MATLAB coding projects. The MATLAB codes also use th
 The goal of this project is to produce a forecast of the Canadian economy using a three-equation DSGE model. The model is estimated using Bayesian methods. The code loosely follows the [Sticky Price Business Cycle Model](https://iris.igpmn.org/docs/tutorials/) tutoral from IRIS. The three-equation model is defined as follows:
 
 ```math
-SE = \frac{\sigma}{\sqrt{n}}
+a^2+b^2=c^2
 ```
-\begin{equation}
-SE = \frac{\sigma}{\sqrt{n}}
-\end{equation}
 (2)
 (3)
 
