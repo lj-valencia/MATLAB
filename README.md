@@ -11,7 +11,7 @@ This is a repository for my MATLAB coding projects. The MATLAB codes also use th
 ## NKPC Model <a name="NKPC-Model"></a>
 The goal of this project is to produce a forecast of the Canadian economy using a three-equation DSGE model. The model is estimated using Bayesian methods. The code loosely follows the [Sticky Price Business Cycle Model](https://iris.igpmn.org/docs/tutorials/) tutoral from IRIS. The three-equation model is defined as follows:
 
-(1) ![equation](<a href="https://www.codecogs.com/eqnedit.php?latex=\pi_{t}&space;=&space;\gamma\mathop{\mathbb{E}_{t}}\pi_{t&plus;1}&space;&plus;&space;(1-\gamma)\pi_{t&plus;1}&space;&plus;&space;\delta&space;y_{t}&space;&plus;&space;u_{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\pi_{t}&space;=&space;\gamma\mathop{\mathbb{E}_{t}}\pi_{t&plus;1}&space;&plus;&space;(1-\gamma)\pi_{t&plus;1}&space;&plus;&space;\delta&space;y_{t}&space;&plus;&space;u_{t}" title="\pi_{t} = \gamma\mathop{\mathbb{E}_{t}}\pi_{t+1} + (1-\gamma)\pi_{t+1} + \delta y_{t} + u_{t}" /></a>)
+(1) <a href="https://www.codecogs.com/eqnedit.php?latex=\pi_{t}&space;=&space;\gamma\mathop{\mathbb{E}_{t}}\pi_{t&plus;1}&space;&plus;&space;(1-\gamma)\pi_{t&plus;1}&space;&plus;&space;\delta&space;y_{t}&space;&plus;&space;u_{t}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\pi_{t}&space;=&space;\gamma\mathop{\mathbb{E}_{t}}\pi_{t&plus;1}&space;&plus;&space;(1-\gamma)\pi_{t&plus;1}&space;&plus;&space;\delta&space;y_{t}&space;&plus;&space;u_{t}" title="\pi_{t} = \gamma\mathop{\mathbb{E}_{t}}\pi_{t+1} + (1-\gamma)\pi_{t+1} + \delta y_{t} + u_{t}" /></a>
 (2)
 (3)
 
