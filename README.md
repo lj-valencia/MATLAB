@@ -14,6 +14,9 @@ The goal of this project is to produce a forecast of the Canadian economy using 
 ```math
 SE = \frac{\sigma}{\sqrt{n}}
 ```
+\begin{equation}
+SE = \frac{\sigma}{\sqrt{n}}
+\end{equation}
 (2)
 (3)
 
