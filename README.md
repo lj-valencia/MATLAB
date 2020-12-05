@@ -3,8 +3,8 @@
 This is a repository for my MATLAB coding projects. The MATLAB codes also use the IRIS macroeconomic modelling toolbox.
 
 ## Table of Contents
-- [NKPC Model](#NKPC Model)
-- [Vector Autoregression (VAR) Model](#Vector Autoregression (VAR) Model )
+- [NKPC Model](#NKPC-Model)
+- [Vector Autoregression (VAR) Model](#Vector-Autoregression-(VAR)-Model )
 - [License](#License)
 
 ## NKPC Model
