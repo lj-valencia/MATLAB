@@ -13,7 +13,9 @@ The goal of this project is to produce a forecast of the Canadian economy using 
 
 ![equation](https://latex.codecogs.com/gif.latex?(1)&space;\quad&space;\pi_{t}&space;=&space;\gamma\mathop{\mathbb{E}_{t}}\pi_{t&plus;1}&space;&plus;&space;(1-\gamma)\pi_{t&plus;1}&space;&plus;&space;\delta&space;y_{t}&space;&plus;&space;u_{t})
 
-![equation](https://latex.codecogs.com/gif.latex?(2)&space;\quad&space;\pi_{t}&space;=&space;\phi\mathop{\mathbb{E}_{t}}y_{t&plus;1}&space;&plus;&space;(1-\phi)y_{t-1}&space;&plus;&space;\lambda(R_{t}&space;-&space;\mathop{\mathbb{E}_{t}}\pi&plus;{t&plus;1})&space;&plus;&space;g_{t})
+![equation](https://latex.codecogs.com/gif.latex?(2)&space;\quad&space;\pi_{t}&space;=&space;\phi\mathop{\mathbb{E}_{t}}y_{t&plus;1}&space;&plus;&space;(1-\phi)y_{t-1}&space;&plus;&space;\lambda(R_{t}&space;-&space;\mathop{\mathbb{E}_{t}}\pi_{t&plus;1})&space;&plus;&space;g_{t})
+
+![equation]()
 
 ## Vector Autoregression (VAR) Model <a name="Vector-Autoregression-(VAR)-Model"></a>
 *This project is coming soon.*
